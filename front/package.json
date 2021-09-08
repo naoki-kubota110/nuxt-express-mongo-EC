@@ -16,7 +16,8 @@
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
     "cors": "^2.8.5",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "sass": "^1.39.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
@@ -31,8 +32,10 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.12.1",
     "jest": "^27.0.5",
+    "node-sass": "^6.0.1",
     "postcss": "^8.3.5",
     "prettier": "^2.3.2",
+    "sass-loader": "^10.1.1",
     "vue-jest": "^3.0.4"
   }
 }

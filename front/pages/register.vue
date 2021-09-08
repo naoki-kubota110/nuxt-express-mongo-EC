@@ -26,19 +26,20 @@
     data(){
       return {
         user:{
-          name:'Steve Harry',
-          email:'steve@test.com',
-          password:'password'
+          name:'',
+          email:'',
+          password:''
         }
       }
     },
     methods:{
       registerUser(){
-        this.$axios.post('/api/auth/register',this.user)
-                    .then((response) => {
-                        this.$auth.loginWith('local',{
-                            data: this.user
-                    })
+        this.$axios.post('/user/register',this.user)
+          .then((response) => {
+            console.log(response)
+            this.$auth.loginWith('local',{
+            data: this.user
+          })
         })
       },
     }

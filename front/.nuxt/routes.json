@@ -1,0 +1,23 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/kubotanaoki/Desktop/nuxt-express-EC/front/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_1871041a"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/kubotanaoki/Desktop/nuxt-express-EC/front/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_061d6682"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/kubotanaoki/Desktop/nuxt-express-EC/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4ec96103"
+  }
+]
